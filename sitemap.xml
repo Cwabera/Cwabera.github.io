@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://cwabera.github.io/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://cwabera.github.io/about</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cwabera.github.io/expertise</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cwabera.github.io/projects</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cwabera.github.io/engineering</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cwabera.github.io/repositories</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://cwabera.github.io/contact</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <url>
+    <loc>https://cwabera.github.io/</loc>
+  </url>
+
+  <url>
+    <loc>https://cwabera.github.io/about.html</loc>
+  </url>
+
+  <url>
+    <loc>https://cwabera.github.io/expertise.html</loc>
+  </url>
+
+  <url>
+    <loc>https://cwabera.github.io/projects.html</loc>
+  </url>
+
+  <url>
+    <loc>https://cwabera.github.io/engineering.html</loc>
+  </url>
+
+  <url>
+    <loc>https://cwabera.github.io/repositories.html</loc>
+  </url>
+
+  <url>
+    <loc>https://cwabera.github.io/contact.html</loc>
+  </url>
+
 </urlset>
