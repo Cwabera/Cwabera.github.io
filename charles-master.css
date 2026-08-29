@@ -153,3 +153,107 @@
  .cc-hero{grid-template-columns:1fr 1fr;min-height:650px}
  .cc-title{grid-column:1/-1}
 }
+
+/* =========================================================
+   V6 — FINAL CHARLES BRAND LOCKUP
+   ========================================================= */
+.cc-brand{
+  display:flex!important;
+  align-items:flex-start!important;
+  justify-content:center!important;
+  width:100%!important;
+  min-height:142px!important;
+  padding:10px 4px 14px!important;
+  gap:0!important;
+}
+.cc-brand .brand-mark{display:none!important}
+.cc-brand .brand-wordmark{
+  display:block!important;
+  width:228px!important;
+  height:142px!important;
+  max-width:100%!important;
+  object-fit:contain!important;
+  object-position:center center!important;
+  border:0!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+  background:transparent!important;
+  filter:drop-shadow(0 0 9px #a855f72b)!important;
+}
+.cc-rail-rule{margin:0 6px 16px!important}
+
+.cc-hero{
+  grid-template-columns:330px minmax(0,1fr)!important;
+  height:330px!important;
+}
+.cc-hero-left{
+  background:linear-gradient(90deg,#030303,#08060b)!important;
+  border-right:1px solid #25192d;
+}
+.cc-portrait{
+  height:304px!important;
+  width:246px!important;
+  max-width:246px!important;
+  object-fit:contain!important;
+  object-position:center bottom!important;
+  filter:drop-shadow(0 18px 20px #000)!important;
+}
+.cc-logo-stage{display:none!important}
+.cc-title{
+  padding:54px 42px 0 28px!important;
+}
+.cc-title h1{
+  font-size:clamp(34px,3.15vw,54px)!important;
+  white-space:nowrap!important;
+  letter-spacing:.025em!important;
+  line-height:.98!important;
+}
+.cc-title .line{margin:16px auto 13px!important}
+.cc-title p{font-size:13px!important;letter-spacing:.30em!important}
+.cc-value{font-size:13px!important;max-width:620px!important;line-height:1.5!important}
+.cc-infinity{font-size:48px!important;margin-top:7px!important}
+
+.cc-profile-mark{
+  width:86px;height:86px;
+  border:1px solid #7f4da0;
+  border-radius:50%;
+  display:grid;place-items:center;
+  font-family:"Bodoni Moda",Georgia,serif;
+  font-style:italic;
+  font-size:30px;
+  color:#eee7f1;
+  background:radial-gradient(circle,#a855f716,transparent 68%);
+  box-shadow:0 0 22px #a855f716;
+}
+
+.cc-sidebar{
+  padding:14px 14px 12px!important;
+}
+.cc-nav{margin-top:8px!important}
+.cc-nav a{
+  min-height:49px!important;
+  padding:11px 12px!important;
+}
+.cc-nav a span:last-child{font-size:12px!important}
+.cc-status{margin-top:18px!important}
+
+@media(max-width:1250px){
+  .cc-hero{grid-template-columns:300px minmax(0,1fr)!important}
+  .cc-portrait{width:225px!important;max-width:225px!important}
+  .cc-title{padding-right:28px!important}
+  .cc-title h1{font-size:clamp(31px,3vw,49px)!important}
+  .cc-brand .brand-wordmark{width:210px!important;height:132px!important}
+}
+@media(max-width:950px){
+  .cc-brand{min-height:110px!important}
+  .cc-brand .brand-wordmark{width:220px!important;height:110px!important}
+  .cc-hero{grid-template-columns:320px minmax(0,1fr)!important;height:auto!important;min-height:500px!important}
+  .cc-title h1{font-size:clamp(31px,5vw,46px)!important;white-space:normal!important}
+}
+@media(max-width:620px){
+  .cc-hero{display:block!important}
+  .cc-hero-left{height:300px!important;border-right:0!important}
+  .cc-title{padding:18px 15px 25px!important}
+  .cc-title h1{font-size:40px!important}
+  .cc-brand .brand-wordmark{width:240px!important;height:125px!important}
+}
