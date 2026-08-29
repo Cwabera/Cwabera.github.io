@@ -1,0 +1,15 @@
+{
+  "name": "Charles Wabera",
+  "short_name": "Charles Wabera",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#030303",
+  "theme_color": "#030303",
+  "icons": [
+    {
+      "src": "/assets/charles-favicon.png",
+      "sizes": "any",
+      "type": "image/png"
+    }
+  ]
+}
