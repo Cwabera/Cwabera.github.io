@@ -1,0 +1,1 @@
+Kelvin-master command-center adaptation for Charles Wabera. Keep the existing assets folder. The portrait uses object-fit: contain so it is not squeezed or cropped.
